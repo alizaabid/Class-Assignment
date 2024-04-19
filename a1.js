@@ -1,4 +1,6 @@
-var studentList = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let studentList = [
     "aliza: gr.2066",
     "saima: gr.6088",
     "arisha: rr.4099",
@@ -7,7 +9,7 @@ var studentList = [
 ];
 console.log(studentList[3]);
 //my information
-var MyInformation = {
+let MyInformation = {
     name: "saima",
     fatherName: "abid",
     age: 23,
@@ -17,7 +19,7 @@ var MyInformation = {
 console.log(MyInformation);
 console.log(MyInformation.city);
 //laptop
-var laptopRupees = [
+let laptopRupees = [
     ["dell, 22000"],
     ["lenovo, 35000"],
     ["hp, 400000"],

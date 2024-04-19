@@ -1,13 +1,14 @@
-var students =["student1", "student2"];
 
-type student1type = {
-    firstName:string;
-    lastName:string;
-    cnicNo: number;
-    isstudent:boolean;
-    subject:string[];}
+interface studentType {
+    firstName: string
+    lastName:string
+    cnicNo: number
+    isstudent:boolean
+    subject:string[] };
 
-    var student1:student1type ={
+
+
+    let student1:studentType ={
         firstName:"aliza",
         lastName:"abid",
         cnicNo: 1234567,
@@ -15,15 +16,8 @@ type student1type = {
         subject:["math", "english"],
      }
 
-    type student2type ={
-    firstName:string;
-    lastName:string;
-    cnicNo: number;
-    isstudent:boolean;
-    subject:string[];
-}
-
-var student2:student2type ={
+    
+let student2:studentType={
     firstName:"sabahat",
     lastName:"abid",
     cnicNo: 44449875,
@@ -31,5 +25,7 @@ var student2:student2type ={
     subject:["science", "urdu"],
 }
 
-console.log(students[1]);
-    console.log(student1);
+console.log(student1.lastName.length);
+console.log(student1);
+console.log(student2.subject);
+
